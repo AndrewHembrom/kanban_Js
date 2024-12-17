@@ -1,0 +1,16 @@
+.to-do {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.in-prog {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.task {
+    background-color: white;
+    margin: 10px;
+}
