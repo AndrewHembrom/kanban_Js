@@ -8,46 +8,41 @@
   </head>
   <body>
     <div class="container">
-      <div
-        id="to-do"
-        class="panels"
-        ondrop="dropHandler(event)"
-        ondragover="dragoverHandler(event)"
-      >
+      <div id="to-do" class="panels">
         <p>To-Do</p>
         <div
-          id="task"
-          class="task"
-          draggable="true"
-          ondragstart="dragstartHandler(event)"
-        >
-          <p>Random Task Card</p>
-        </div>
-        <div id="add-task-btn" class="btn">Add Task Card</div>
+          id="todo-cont"
+          class="drop-cont"
+          ondrop="dropHandler(event)"
+          ondragover="dragoverHandler(event)"
+        ></div>
+        <button class="btn" id="add-task-btn" onclick="addTaskCard()">
+          Add Task Card
+        </button>
       </div>
-      <div
-        id="progress"
-        class="panels"
-        ondrop="dropHandler(event)"
-        ondragover="dragoverHandler(event)"
-      >
+      <div id="progress" class="panels">
         <p>In Progress</p>
+        <div
+          class="drop-cont"
+          ondrop="dropHandler(event)"
+          ondragover="dragoverHandler(event)"
+        ></div>
       </div>
-      <div
-        id="on-hold"
-        class="panels"
-        ondrop="dropHandler(event)"
-        ondragover="dragoverHandler(event)"
-      >
+      <div id="on-hold" class="panels">
         <p>On Hold</p>
+        <div
+          class="drop-cont"
+          ondrop="dropHandler(event)"
+          ondragover="dragoverHandler(event)"
+        ></div>
       </div>
-      <div
-        id="done"
-        class="panels"
-        ondrop="dropHandler(event)"
-        ondragover="dragoverHandler(event)"
-      >
+      <div id="done" class="panels">
         <p>Done</p>
+        <div
+          class="drop-cont"
+          ondrop="dropHandler(event)"
+          ondragover="dragoverHandler(event)"
+        ></div>
       </div>
     </div>
 

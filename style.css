@@ -35,3 +35,10 @@ body {
   padding: 5px;
   border-radius: 10px;
 }
+
+.drop-cont {
+  height: 100%;
+  width: 100%;
+  min-height: 20px;
+  min-width: 40px;
+}
